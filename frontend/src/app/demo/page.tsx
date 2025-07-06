@@ -10,14 +10,14 @@ import { useRouter } from 'next/navigation'
 
 // Mock lyrics data
 const mockLyrics = [
-  { id: '1', text: `I have been tryna call`, startTime: 0, endTime: 3, isActive: false, isCompleted: false },
-  { id: '2', text: `I have been on my own for long enough`, startTime: 3, endTime: 7, isActive: false, isCompleted: false },
-  { id: '3', text: `Maybe you can show me how to love maybe`, startTime: 7, endTime: 12, isActive: false, isCompleted: false },
-  { id: '4', text: `I am going through withdrawals`, startTime: 12, endTime: 15, isActive: false, isCompleted: false },
-  { id: '5', text: `You do not even have to do too much`, startTime: 15, endTime: 19, isActive: false, isCompleted: false },
-  { id: '6', text: `You can turn me on with just a touch baby`, startTime: 19, endTime: 24, isActive: false, isCompleted: false },
-  { id: '7', text: `Sign of the times`, startTime: 24, endTime: 27, isActive: false, isCompleted: false },
-  { id: '8', text: `We gotta get away from here`, startTime: 27, endTime: 31, isActive: false, isCompleted: false },
+  { id: '1', text: "I have been tryna call", startTime: 0, endTime: 3, isActive: false, isCompleted: false },
+  { id: '2', text: "I have been on my own for long enough", startTime: 3, endTime: 7, isActive: false, isCompleted: false },
+  { id: '3', text: "Maybe you can show me how to love, maybe", startTime: 7, endTime: 12, isActive: false, isCompleted: false },
+  { id: '4', text: "I am going through withdrawals", startTime: 12, endTime: 15, isActive: false, isCompleted: false },
+  { id: '5', text: "You do not even have to do too much", startTime: 15, endTime: 19, isActive: false, isCompleted: false },
+  { id: '6', text: "You can turn me on with just a touch, baby", startTime: 19, endTime: 24, isActive: false, isCompleted: false },
+  { id: '7', text: "Sign of the times", startTime: 24, endTime: 27, isActive: false, isCompleted: false },
+  { id: '8', text: "We gotta get away from here", startTime: 27, endTime: 31, isActive: false, isCompleted: false },
 ]
 
 export default function DemoPage() {
