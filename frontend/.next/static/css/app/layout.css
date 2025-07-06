@@ -2063,6 +2063,11 @@ a {
   border-color: rgb(255 255 255 / 0.4);
 }
 
+.hover\:border-yellow-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));
+}
+
 .hover\:bg-highlight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(251 193 58 / var(--tw-bg-opacity, 1));
@@ -2102,6 +2107,11 @@ a {
 
 .hover\:bg-white\/50:hover {
   background-color: rgb(255 255 255 / 0.5);
+}
+
+.hover\:bg-yellow-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-karaoke-card:hover {

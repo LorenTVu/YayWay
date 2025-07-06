@@ -157,11 +157,12 @@ export default function DemoPage() {
               </Button>
               
               <Button
+                variant={isRecording ? 'primary' : 'ghost'}
                 onClick={() => setIsRecording(!isRecording)}
-                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 text-black ${
-                  isRecording 
-                    ? 'bg-gradient-to-r from-red-500 to-red-600 shadow-lg shadow-red-500/25' 
-                    : 'bg-white/30 hover:bg-white/50 shadow-lg border border-white/50'
+                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 ${
+                  isRecording
+                    ? 'bg-gradient-to-r from-red-500 to-red-600 text-white shadow-lg shadow-red-500/25'
+                    : 'bg-white/30 text-black hover:bg-white/50 shadow-lg border-white/50'
                 }`}
               >
                 <Mic className="w-6 h-6" />
