@@ -131,16 +131,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(ssr)/../node_modules/lucide-react/dist/esm/icons/star.js":
-/*!***********************************************************!*\
-  !*** ../node_modules/lucide-react/dist/esm/icons/star.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Star)\n/* harmony export */ });\n/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ \"(ssr)/../node_modules/lucide-react/dist/esm/createLucideIcon.js\");\n/**\n * @license lucide-react v0.303.0 - ISC\n *\n * This source code is licensed under the ISC license.\n * See the LICENSE file in the root directory of this source tree.\n */ \nconst Star = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(\"Star\", [\n    [\n        \"polygon\",\n        {\n            points: \"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\",\n            key: \"8f66p6\"\n        }\n    ]\n]);\n //# sourceMappingURL=star.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi4vbm9kZV9tb2R1bGVzL2x1Y2lkZS1yZWFjdC9kaXN0L2VzbS9pY29ucy9zdGFyLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQUE7Ozs7O0NBS0MsR0FFcUQ7QUFFdEQsTUFBTUMsT0FBT0QsZ0VBQWdCQSxDQUFDLFFBQVE7SUFDcEM7UUFDRTtRQUNBO1lBQ0VFLFFBQVE7WUFDUkMsS0FBSztRQUNQO0tBQ0Q7Q0FDRjtBQUUwQixDQUMzQixnQ0FBZ0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly95YXl3YXkta2FyYW9rZS1mcm9udGVuZC8uLi9ub2RlX21vZHVsZXMvbHVjaWRlLXJlYWN0L2Rpc3QvZXNtL2ljb25zL3N0YXIuanM/ODQ5ZSJdLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEBsaWNlbnNlIGx1Y2lkZS1yZWFjdCB2MC4zMDMuMCAtIElTQ1xuICpcbiAqIFRoaXMgc291cmNlIGNvZGUgaXMgbGljZW5zZWQgdW5kZXIgdGhlIElTQyBsaWNlbnNlLlxuICogU2VlIHRoZSBMSUNFTlNFIGZpbGUgaW4gdGhlIHJvb3QgZGlyZWN0b3J5IG9mIHRoaXMgc291cmNlIHRyZWUuXG4gKi9cblxuaW1wb3J0IGNyZWF0ZUx1Y2lkZUljb24gZnJvbSAnLi4vY3JlYXRlTHVjaWRlSWNvbi5qcyc7XG5cbmNvbnN0IFN0YXIgPSBjcmVhdGVMdWNpZGVJY29uKFwiU3RhclwiLCBbXG4gIFtcbiAgICBcInBvbHlnb25cIixcbiAgICB7XG4gICAgICBwb2ludHM6IFwiMTIgMiAxNS4wOSA4LjI2IDIyIDkuMjcgMTcgMTQuMTQgMTguMTggMjEuMDIgMTIgMTcuNzcgNS44MiAyMS4wMiA3IDE0LjE0IDIgOS4yNyA4LjkxIDguMjYgMTIgMlwiLFxuICAgICAga2V5OiBcIjhmNjZwNlwiXG4gICAgfVxuICBdXG5dKTtcblxuZXhwb3J0IHsgU3RhciBhcyBkZWZhdWx0IH07XG4vLyMgc291cmNlTWFwcGluZ1VSTD1zdGFyLmpzLm1hcFxuIl0sIm5hbWVzIjpbImNyZWF0ZUx1Y2lkZUljb24iLCJTdGFyIiwicG9pbnRzIiwia2V5IiwiZGVmYXVsdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/../node_modules/lucide-react/dist/esm/icons/star.js\n");
-
-/***/ }),
-
 /***/ "(ssr)/../node_modules/lucide-react/dist/esm/icons/target.js":
 /*!*************************************************************!*\
   !*** ../node_modules/lucide-react/dist/esm/icons/target.js ***!

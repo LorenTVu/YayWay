@@ -34,7 +34,7 @@ export function Hero() {
         </Button>
         <Button
           size="lg"
-          className="text-lg px-8 py-4 font-bold border-2 border-gray-300 bg-white text-gray-700 hover:bg-highlight hover:text-white hover:border-highlight"
+          className="text-lg px-8 py-4 font-bold border-2 border-gray-300 bg-white text-black hover:bg-highlight hover:text-white hover:border-highlight"
           onClick={() => router.push('/demo')}
         >
           Try Demo
