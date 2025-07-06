@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/Button'
-import { Mic, Play, Clock, Star, Zap, Users, ArrowLeft } from 'lucide-react'
+import { Mic, Play, Clock, Star, Zap, Users } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 export default function ComingSoonPage() {
@@ -32,7 +32,7 @@ export default function ComingSoonPage() {
 
             {/* Subtitle */}
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto">
-              We're working hard to bring you the ultimate karaoke experience. 
+              We are working hard to bring you the ultimate karaoke experience. 
               Sign up and account features will be available soon!
             </p>
 
@@ -66,7 +66,7 @@ export default function ComingSoonPage() {
             className="mb-12"
           >
             <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent mb-8">
-              What's Coming
+              What is Coming
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -119,7 +119,7 @@ export default function ComingSoonPage() {
               Experience the Future Today
             </h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto text-lg">
-              Don't wait! Try our interactive demo to experience real-time lyrics synchronization, 
+              Do not wait! Try our interactive demo to experience real-time lyrics synchronization, 
               AI performance scoring, and social rooms with horizontal layout.
             </p>
             <Button

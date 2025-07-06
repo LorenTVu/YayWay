@@ -10,14 +10,14 @@ import { useRouter } from 'next/navigation'
 
 // Mock lyrics data
 const mockLyrics = [
-  { id: '1', text: "I've been tryna call", startTime: 0, endTime: 3, isActive: false, isCompleted: false },
-  { id: '2', text: "I've been on my own for long enough", startTime: 3, endTime: 7, isActive: false, isCompleted: false },
-  { id: '3', text: "Maybe you can show me how to love, maybe", startTime: 7, endTime: 12, isActive: false, isCompleted: false },
-  { id: '4', text: "I'm going through withdrawals", startTime: 12, endTime: 15, isActive: false, isCompleted: false },
-  { id: '5', text: "You don't even have to do too much", startTime: 15, endTime: 19, isActive: false, isCompleted: false },
-  { id: '6', text: "You can turn me on with just a touch, baby", startTime: 19, endTime: 24, isActive: false, isCompleted: false },
-  { id: '7', text: "Sign of the times", startTime: 24, endTime: 27, isActive: false, isCompleted: false },
-  { id: '8', text: "We gotta get away from here", startTime: 27, endTime: 31, isActive: false, isCompleted: false },
+  { id: '1', text: `I have been tryna call`, startTime: 0, endTime: 3, isActive: false, isCompleted: false },
+  { id: '2', text: `I have been on my own for long enough`, startTime: 3, endTime: 7, isActive: false, isCompleted: false },
+  { id: '3', text: `Maybe you can show me how to love maybe`, startTime: 7, endTime: 12, isActive: false, isCompleted: false },
+  { id: '4', text: `I am going through withdrawals`, startTime: 12, endTime: 15, isActive: false, isCompleted: false },
+  { id: '5', text: `You do not even have to do too much`, startTime: 15, endTime: 19, isActive: false, isCompleted: false },
+  { id: '6', text: `You can turn me on with just a touch baby`, startTime: 19, endTime: 24, isActive: false, isCompleted: false },
+  { id: '7', text: `Sign of the times`, startTime: 24, endTime: 27, isActive: false, isCompleted: false },
+  { id: '8', text: `We gotta get away from here`, startTime: 27, endTime: 31, isActive: false, isCompleted: false },
 ]
 
 export default function DemoPage() {
@@ -146,10 +146,10 @@ export default function DemoPage() {
             <div className="flex items-center gap-8">
               <Button
                 onClick={handlePlayPause}
-                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 shadow-lg ${
+                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 shadow-lg text-black ${
                   isPlaying 
-                    ? 'bg-gradient-to-r from-gray-500 to-gray-600 text-white shadow-gray-500/25' 
-                    : 'bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-primary-500/25 hover:shadow-primary-500/40'
+                    ? 'bg-gradient-to-r from-gray-500 to-gray-600 shadow-gray-500/25' 
+                    : 'bg-gradient-to-r from-primary-500 to-primary-600 shadow-primary-500/25 hover:shadow-primary-500/40'
                 }`}
               >
                 {isPlaying ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6" />}
@@ -158,10 +158,10 @@ export default function DemoPage() {
               
               <Button
                 onClick={() => setIsRecording(!isRecording)}
-                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 ${
+                className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-semibold transition-all duration-300 text-black ${
                   isRecording 
-                    ? 'bg-gradient-to-r from-red-500 to-red-600 text-white shadow-lg shadow-red-500/25' 
-                    : 'bg-white/30 text-black hover:bg-white/50 shadow-lg border border-white/50'
+                    ? 'bg-gradient-to-r from-red-500 to-red-600 shadow-lg shadow-red-500/25' 
+                    : 'bg-white/30 hover:bg-white/50 shadow-lg border border-white/50'
                 }`}
               >
                 <Mic className="w-6 h-6" />
@@ -250,7 +250,7 @@ export default function DemoPage() {
               </div>
               <h4 className="font-bold text-xl text-gray-800 mb-4">Real-time Lyrics</h4>
               <p className="text-gray-700 leading-relaxed">
-                Click "Play Demo" to see lyrics highlight in sync with the audio. 
+                Click Play Demo to see lyrics highlight in sync with the audio. 
                 Click on any lyric line to jump to that time.
               </p>
             </div>
@@ -260,7 +260,7 @@ export default function DemoPage() {
               </div>
               <h4 className="font-bold text-xl text-gray-800 mb-4">AI Performance Scoring</h4>
               <p className="text-gray-700 leading-relaxed">
-                Click "Start Recording" to see real-time AI analysis of pitch, 
+                Click Start Recording to see real-time AI analysis of pitch, 
                 rhythm, and timing with instant feedback.
               </p>
             </div>
