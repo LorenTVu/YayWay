@@ -1,0 +1,61 @@
+{
+  "name": "yayway-karaoke-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for YayWay Karaoke app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tanstack/react-query": "^5.17.9",
+    "@tanstack/react-query-devtools": "^5.81.5",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-virtualized": "^9.21.29",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.303.0",
+    "next": "14.0.4",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.3",
+    "react-player": "^2.14.1",
+    "react-use": "^17.4.2",
+    "react-virtualized": "^9.22.5",
+    "socket.io-client": "^4.7.4",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3",
+    "wavesurfer.js": "^7.7.3",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4"
+  },
+  "keywords": [
+    "karaoke",
+    "music",
+    "real-time",
+    "nextjs",
+    "react"
+  ],
+  "author": "YayWay Team",
+  "license": "MIT"
+}
